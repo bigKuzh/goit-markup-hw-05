@@ -116,7 +116,7 @@ position: relative;
 
 
 /* -----------------Перший варіант----------------- */
-.header-thumb::after {
+.studio-thumb::after, .portfolio-thumb::after {
    display: inline-block;
    content: '';
    width: 100%;
@@ -129,9 +129,9 @@ position: relative;
    opacity: 1;
 }
 
-.header-link:active::after {
+/* .header-link:active::after {
    opacity: 1;
-}
+} */
 
 
 /* -----------------Другий варіант----------------- */
