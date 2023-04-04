@@ -469,22 +469,19 @@ height: 88px;
 
 border: 1px solid #8E8F99;
 border-radius: 4px;
+color: #8E8F99;
 
-transition-property: border-color, fill;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:is(:hover, :focus) {
 border-color: var(--select-color);
+color: var(--select-color);
 }
 
-.customers-link:is(:hover, :focus) > .customers-icon{
-   fill: var(--select-color);
-   }
 
 .customers-icon {
-   fill: #8E8F99;
+   fill: currentColor;
 }
 
 /* ---------------------------Footer--------------------------- */
