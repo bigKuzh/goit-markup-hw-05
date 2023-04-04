@@ -129,27 +129,6 @@ position: relative;
    opacity: 1;
 }
 
-/* .header-link:active::after {
-   opacity: 1;
-} */
-
-
-/* -----------------Другий варіант----------------- */
-/* .studio::after, .portfolio-nav::after, .contacts::after {
-   display: inline-block;
-   content: '';
-   width: 100%;
-   height: 4px;
-   left: 0;
-   bottom: -1px;
-   background: #404BBF;
-   border-radius: 2px;
-   position: absolute;
-} */
-
-
-
-
 .header-address{ 
    font-style: normal; 
 }
@@ -189,8 +168,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 /* ---------------------------------Hero--------------------------------- */
 .hero {
@@ -285,7 +262,6 @@ margin-bottom: 8px;
 .about-icon {
    width: 64px;
    height: 64px;
-   /* fill: var(--main-title-color); */
 }
 
 .about-title {
